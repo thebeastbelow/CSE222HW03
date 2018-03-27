@@ -16,7 +16,7 @@ public class Course {
     private int GTUCredits;
     private String htl;
 
-    Course(int semester, String code, String title, int ECTSCredits,
+    public Course(int semester, String code, String title, int ECTSCredits,
            int GTUCredits, String htl) {
         this.semester = semester;
         this.code = code;

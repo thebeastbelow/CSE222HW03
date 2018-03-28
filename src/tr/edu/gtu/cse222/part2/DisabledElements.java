@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class DisabledElements<E> {
     private ArrayList<DisabledElement<E>> list;
 
-    DisabledElements() {
+    public DisabledElements() {
         list = new ArrayList<>();
     }
 

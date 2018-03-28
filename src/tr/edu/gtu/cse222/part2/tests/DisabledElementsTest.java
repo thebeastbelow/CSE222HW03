@@ -1,7 +1,10 @@
-package tr.edu.gtu.cse222.part2;
+package tr.edu.gtu.cse222.part2.tests;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import tr.edu.gtu.cse222.part2.DisabledElement;
+import tr.edu.gtu.cse222.part2.DisabledElements;
+import tr.edu.gtu.cse222.part2.InvalidIndexException;
 
 import static org.junit.jupiter.api.Assertions.*;
 

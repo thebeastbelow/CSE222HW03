@@ -1,8 +1,11 @@
-package tr.edu.gtu.cse222.part2;
+package tr.edu.gtu.cse222.part2.tests;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import tr.edu.gtu.cse222.part1.Course;
+import tr.edu.gtu.cse222.part2.DisabledLinkedList;
+import tr.edu.gtu.cse222.part2.IllegalDisableAttemptException;
+import tr.edu.gtu.cse222.part2.IllegalEnableAttemptException;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

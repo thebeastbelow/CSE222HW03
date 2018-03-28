@@ -15,7 +15,7 @@ import java.util.ListIterator;
 public class DisabledLinkedList<E> extends LinkedList<E> {
     private DisabledElements<E> disableds;
 
-    DisabledLinkedList() {
+    public DisabledLinkedList() {
         disableds = new DisabledElements<>();
     }
 

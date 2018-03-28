@@ -9,7 +9,7 @@ package tr.edu.gtu.cse222.part2;
  * @see DisabledLinkedList
  * @see DisabledElements
  */
-class DisabledElement<E> {
+public class DisabledElement<E> {
     private int location;
     private E element;
 
